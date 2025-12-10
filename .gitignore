@@ -20,3 +20,6 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+.vs/VSWorkspaceState.json
+.vs/youngwarriorsskating.github.io.slnx/v18/.wsuo
+.vs/youngwarriorsskating.github.io.slnx/v18/DocumentLayout.json

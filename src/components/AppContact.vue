@@ -20,7 +20,7 @@
                         Tamil Nadu 600110
                     </div>
                     <div>
-                      <a target="_blank" href="https://maps.app.goo.gl/CXEghgQSrmSuGwta8?g_st=ac">
+                      <a target="_blank" href="https://maps.app.goo.gl/2L9RNmPLhaEHLpev9">
                       <img src="./../assets/googleMap.png" alt="location icon" class="h-8 m-2">
                   </a>
                     </div>
@@ -155,14 +155,7 @@ export default {
       name: null,
       email: null,
       messageBody: null,
-      alert: false,
-      templateParams: {
-  name: '',
-  email: '',
-  message: ''
-},
-  SERVICE_ID:'service_ndcoc2r',
-  TEMPLATE_ID:'template_g2ehrkm',
+      alert: false
     };
   },
   computed: {
@@ -211,23 +204,9 @@ export default {
     },
 
     submitMessage() {
-      this.templateParams.name = this.name;
-      this.templateParams.email = this.email;
-      this.templateParams.message = this.messageBody;
-      
-         emailjs
-  .send(this.SERVICE_ID, this.TEMPLATE_ID, this.templateParams, {
-    publicKey: 'mN3raLTE9uhlQpSHk',
-  })
-  .then(
-    (response) => {
-      console.log('SUCCESS!', response.status, response.text);
-      this.resetForm();
-    },
-    (err) => {
-      console.log('FAILED...', err);
-    },
-  );
+        if(process.env.VUE_APP_CONTACT_TYPE == "email"){
+            this.customEmail();
+        }
     },
 
     customEmail() {
