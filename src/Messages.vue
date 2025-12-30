@@ -8,7 +8,7 @@
             <div class="text-center w-1/4 p-12 border border-grey-light m-12" v-for="message in messages" :key="message.id">
                 <div class="font-bold text-2xl">{{ message.name }}</div>
                 <div>
-                    <a :href="`mailto:${message.email}`" class="font-bold text-sm no-underline text-main-black opacity-50">{{ message.email }}</a>
+                    <a :href="`mailto:${message.email}`" class="font-bold text-sm no-underline text-main-black opacity-75">{{ message.email }}</a>
                 </div>
                 <div class="mt-12">{{ message.body }}</div>
             </div>

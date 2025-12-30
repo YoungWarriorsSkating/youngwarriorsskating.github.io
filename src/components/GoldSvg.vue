@@ -1,0 +1,11 @@
+<template>
+    <div>
+    <svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176px" height="176px" viewBox="0 0 64.00 64.00" enable-background="new 0 0 64 64" xml:space="preserve" fill="#000000" stroke="#000000" stroke-width="0.00064" transform="matrix(1, 0, 0, 1, 0, 0)rotate(90)"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path fill="#394240" d="M60,0H4C1.789,0,0,1.789,0,4v56c0,2.211,1.789,4,4,4h56c2.211,0,4-1.789,4-4V4C64,1.789,62.211,0,60,0z M52,2v29H12V2H52z M2,4c0-1.104,0.896-2,2-2h6v9H2V4z M2,13h8v8H2V13z M2,23h8v8H2V23z M2,33h8v8H2V33z M2,43h8v8H2V43z M4,62 c-1.104,0-2-0.896-2-2v-7h8v9H4z M12,62V33h40v29H12z M62,60c0,1.104-0.896,2-2,2h-6v-9h8V60z M62,51h-8v-8h8V51z M62,41h-8v-8h8 V41z M62,31h-8v-8h8V31z M62,21h-8v-8h8V21z M62,11h-8V2h6c1.104,0,2,0.896,2,2V11z"></path> <g> <path fill="#ffd700" d="M2,4v7h8V2H4C2.896,2,2,2.896,2,4z"></path> <rect x="2" y="13" fill="#ffd700" width="8" height="8"></rect> <rect x="2" y="23" fill="#ffd700" width="8" height="8"></rect> <rect x="2" y="33" fill="#ffd700" width="8" height="8"></rect> <rect x="2" y="43" fill="#ffd700" width="8" height="8"></rect> <path fill="#ffd700" d="M2,60c0,1.104,0.896,2,2,2h6v-9H2V60z"></path> <path fill="#ffd700" d="M54,62h6c1.104,0,2-0.896,2-2v-7h-8V62z"></path> <rect x="54" y="43" fill="#ffd700" width="8" height="8"></rect> <rect x="54" y="33" fill="#ffd700" width="8" height="8"></rect> <rect x="54" y="23" fill="#ffd700" width="8" height="8"></rect> <rect x="54" y="13" fill="#ffd700" width="8" height="8"></rect> <path fill="#ffd700" d="M60,2h-6v9h8V4C62,2.896,61.104,2,60,2z"></path> </g> <g> <rect x="12" y="2" fill="#000000" width="40" height="29"></rect> <rect x="12" y="33" fill="#000000" width="40" height="29"></rect> </g> </g> </g></svg>
+    </div>
+</template>
+
+<script>
+    export default {
+        
+    }
+</script>

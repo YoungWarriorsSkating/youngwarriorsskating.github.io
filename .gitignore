@@ -20,6 +20,45 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
-.vs/VSWorkspaceState.json
-.vs/youngwarriorsskating.github.io.slnx/v18/.wsuo
-.vs/youngwarriorsskating.github.io.slnx/v18/DocumentLayout.json
+.vs/
+dist/android-chrome-192x192.png
+dist/android-chrome-512x512.png
+dist/apple-touch-icon.png
+dist/browserconfig.xml
+dist/favicon-16x16.png
+dist/favicon-32x32.png
+dist/favicon.ico
+dist/index.html
+dist/mstile-150x150.png
+dist/site.webmanifest
+dist/testimonials.json
+dist/avatars/coach.png
+dist/avatars/female-1.png
+dist/avatars/female-2.png
+dist/avatars/female-3.png
+dist/avatars/male-1.png
+dist/avatars/male-2.png
+dist/css/app.0a351e3a.css
+dist/img/Bandy.7f24b7b9.jpg
+dist/img/canteen.ea21a5db.svg
+dist/img/compass.3f44a78a.svg
+dist/img/facebook.61f23eb5.svg
+dist/img/forest.7896c60b.svg
+dist/img/googleMap.ba8ca117.png
+dist/img/instagram.160b0c99.svg
+dist/img/kid.dbd5ff41.jpg
+dist/img/logo char with white1.b22aec02.png
+dist/img/logo char with white3.18dec4a6.png
+dist/img/logo-bg-2.154ec95c.png
+dist/img/mail.d0f4ff4e.svg
+dist/img/phone.a8f7f8cd.svg
+dist/img/pines.c42a9993.svg
+dist/img/Roll ball.e0e240d5.jpg
+dist/img/Roller hockey.91d71059.jpg
+dist/img/Speed skating.8ea8cf91.jpg
+dist/img/up-arrow.1febbb02.svg
+dist/img/whatsppIcon1.c2ce05da.svg
+dist/js/app.9d389ec8.js
+dist/js/app.9d389ec8.js.map
+dist/js/chunk-vendors.dd7419ae.js
+dist/js/chunk-vendors.dd7419ae.js.map
