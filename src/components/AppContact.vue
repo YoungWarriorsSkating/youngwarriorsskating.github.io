@@ -72,19 +72,19 @@
 
                     <div class="mb-6">
                         <span v-if="error.nameEmpty">
-                            <input v-model="name" type="text" placeholder="Name" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none mr-2">
+                            <input v-model="name" :disabled="showLoader"  type="text" placeholder="Name" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none mr-2">
                             <span class="text-main-black font-semibold text-xs opacity-75">
                                 Please enter your name before sumbiting the message
                             </span>
                         </span>
                         <span v-else>
-                            <input v-model="name" type="text" placeholder="Name" class="w-full bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none mr-2">
+                            <input v-model="name" :disabled="showLoader"  type="text" placeholder="Name" class="w-full bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none mr-2">
                         </span>
                     </div>
 
                     <div class="mb-6">
                         <span v-if="error.emailEmpty">
-                            <input v-model="email" type="text" placeholder="Email" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
+                            <input v-model="email" :disabled="showLoader"  type="text" placeholder="Email" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
                             <span class="text-main-black font-semibold text-xs opacity-75">
                                 Please enter your email before sumbiting the message
                             </span>
@@ -92,20 +92,20 @@
 
                         <span v-else>
                             <span v-if="error.emailWrong">
-                                <input v-model="email" type="text" placeholder="Email" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
+                                <input v-model="email" :disabled="showLoader"  type="text" placeholder="Email" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
                                 <span class="text-main-black font-semibold text-xs opacity-75">
                                     Please enter a valid email address
                                 </span>
                             </span>
                             <span v-else>
-                                <input v-model="email" type="text" placeholder="Email" class="w-full bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
+                                <input v-model="email" :disabled="showLoader"  type="text" placeholder="Email" class="w-full bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
                             </span>
                         </span>
                     </div>
                     
                     <div class="mb-6">
                         <span v-if="error.phoneEmpty">
-                            <input v-model="phone" type="text" placeholder="Phone number" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
+                            <input v-model="phone" :disabled="showLoader"  type="text" placeholder="Phone number" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
                             <span class="text-main-black font-semibold text-xs opacity-75">
                                 Please enter your phone number before sumbiting the message
                             </span>
@@ -113,34 +113,35 @@
 
                         <span v-else>
                             <span v-if="error.phoneWrong">
-                                <input v-model="phone" type="text" placeholder="Phone number" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
+                                <input v-model="phone" :disabled="showLoader"  type="text" placeholder="Phone number" class="w-full border border-red-light bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
                                 <span class="text-main-black font-semibold text-xs opacity-75">
                                     Please enter a valid phone number
                                 </span>
                             </span>
                             <span v-else>
-                                <input v-model="phone" type="text" placeholder="Phone number" class="w-full bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
+                                <input v-model="phone" :disabled="showLoader"  type="text" placeholder="Phone number" class="w-full bg-grey-lightest py-4 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none">
                             </span>
                         </span>
                     </div>
 
                     <div class="mb-6">
                         <span v-if="error.messageBodyEmpty">
-                            <textarea v-model="messageBody" placeholder="Message" class="w-full border border-red-light bg-grey-lightest py-16 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none"></textarea>
+                            <textarea v-model="messageBody" :disabled="showLoader"  placeholder="Message" class="w-full border border-red-light bg-grey-lightest py-16 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none"></textarea>
                             <span class="text-main-black font-semibold text-xs opacity-75">
                                 Please enter a message before sumbiting the message
                             </span>
                         </span>
 
                         <span v-else>
-                            <textarea v-model="messageBody" placeholder="Message" class="w-full bg-grey-lightest py-16 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none"></textarea>
+                            <textarea v-model="messageBody" :disabled="showLoader"  placeholder="Message" class="w-full bg-grey-lightest py-16 text-main-black font-medium text-base text-center focus:bg-grey-light focus:outline-none"></textarea>
                         </span>
                     </div>
                     
 
                     
-                    <div class="w-full md:text-right xs:text-center">
-                        <button @click="checkForm" class="bg-main-green px-4 py-4 rounded font-medium text-center xs:w-full lg:w-auto text-grey-lightest">Send Message</button>
+                    <div class="w-full md:text-right xs:text-center grid-container">
+                        <button @click="checkForm" :disabled="showLoader" :class="[showLoader? 'bg-main-green px-4 py-4 rounded font-medium text-center xs:w-full text-grey' : 'bg-main-green px-4 py-4 rounded font-medium text-center xs:w-full text-grey-lightest']">Send Message</button>
+                        <img v-show="showLoader" src="./../assets/bars-scale-fade.svg" alt="send icon" class="inline-block top h-12">
                     </div>
                     
                     <!-- <button class="bg-yellow-dark uppercase px-4 py-4 rounded font-black text-yellow-darker border-b-4 border-yellow-darker mb-4">Create -->
@@ -182,6 +183,7 @@ export default {
       email: null,
       messageBody: null,
       phone: null,
+      showLoader: false,
       alert: false,
       templateParams:{
   name: 'James',
@@ -256,6 +258,7 @@ export default {
         this.templateParams.message=this.messageBody;
         this.templateParams.time=new Date().toLocaleDateString() + ' ' + new Date().toLocaleTimeString();
         this.templateParams.phone=this.phone;
+        this.showLoader = true;
         this.submitMessage();
       }
     },
@@ -270,10 +273,12 @@ export default {
       console.log('SUCCESS!', response.status, response.text);
       this.alert = true;
       this.resetForm();
+      this.showLoader = false;
     },
     (err) => {
       console.log('FAILED...', err);
       this.customEmail();
+      this.showLoader = false;
     },
   );
     },
@@ -297,4 +302,16 @@ export default {
 </script>
 
 <style scoped>
+.grid-container {
+  display: grid;
+  grid-template-areas: "stack"; /* Define one area */
+}
+
+.grid-container > * {
+  grid-area: stack; /* Both children go to the same spot */
+}
+.top {
+  align-self: center;
+  justify-self: center;
+}
 </style>

@@ -8,7 +8,7 @@
                 <h3 class="mt-3 text-center">Learn to skate with India’s best</h3>
                 <div class="flex md:flex-no-wrap xs:flex-wrap items-center justify-center mt-5">
                     <div class="md:px-6 py-6 m-2 text-center">
-                        <img src="./../assets/Speed skating.jpg" alt="mountain image" class="h-1/2screen mb-4">
+                        <img src="./../assets/Speed skating.jpg" alt="mountain image" class="mb-4">
                         <h3 class="mb-4">Speed Skating</h3>
                         <p class="text-black font-base opacity-75">
                             Speed skating is an exhilarating competitive sport where athletes race on ice skates around an oval track, striving for the fastest time. It's often cited as the fastest non-assisted human sport.
@@ -30,7 +30,7 @@ This helps improve balance, coordination, and stamina.
                  <div class="flex md:flex-no-wrap xs:flex-wrap items-center justify-center mt-5">
                    
                     <div class="md:px-6 py-6 m-2 text-center">
-                        <img src="./../assets/Roll ball.jpg" alt="tent image" class="h-1/2screen mb-4">
+                        <img src="./../assets/Roll ball.jpg" alt="tent image" class="mb-4">
                         <h3 class="mb-4">Roll Ball</h3>
                         <p class="text-black font-base opacity-75">
                             A fast-paced combination of roller skating + basketball + handball.
@@ -40,7 +40,7 @@ Perfect for building teamwork and confidence.
                         </p>
                     </div>
                     <div class="md:px-6 py-6 m-2 text-center">
-                        <img src="./../assets/Roller hockey.jpg" alt="picnic image" class="h-1/2screen mb-4">
+                        <img src="./../assets/Roller hockey.jpg" alt="picnic image" class="mb-4">
                         <h3 class="mb-4">Roller Hockey</h3>
                         <p class="text-black font-base opacity-75">
                             A thrilling sport played on skates with sticks and a ball/puck.
@@ -63,7 +63,7 @@ Great for kids who love speed and action.
                             </p>
                         </div>
                         <div class="md:m-4 text-center">
-                            <img src="./../assets/special focus.png" alt="canteen image" class="mb-4 md:mt-0 xs:mt-20">
+                            <img src="./../assets/special nob.png" alt="canteen image" class="mb-4 md:mt-0 xs:mt-20">
                             <h3 class="mb-4">Special Focus</h3>
                             <p class="text-black font-thin">
                                
@@ -87,7 +87,7 @@ Autism Spectrum, Learning difficulties, Developmental delays, Sensory challenges
                             </p>
                         </div>
                         <div class="md:m-4 text-center">
-                            <img src="./../assets/trust us.png" alt="pines image" class="mb-4 md:mt-0 xs:mt-20">
+                            <img src="./../assets/trust us 2.png" alt="pines image" class="mb-4 md:mt-0 xs:mt-20">
                             <h3 class="mb-4">✔️ Why Parents Trust Us</h3>
                             <p class="text-black font-thin">
                                 Trained and patient instructors, Safe, controlled teaching techniques, Flexible learning pace, Friendly environment for all children, Focus on emotional and social development along with skating
