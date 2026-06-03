@@ -3,7 +3,7 @@ name: Deploy Vue app to GitHub Pages
 on:
   push:
     branches:
-      - main   # or your default branch
+      - main # or your default branch
 
 permissions:
   contents: write
@@ -26,6 +26,11 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          # Use 'secrets' for secrets and 'vars' for variables
+          EMAIL_PUBLIC_KEY: ${{ vars.EMAIL_PUBLIC_KEY }}
+          EMAIL_SERVICE_ID: ${{ vars.EMAIL_SERVICE_ID }}
+          EMAIL_TEMPLATE_ID: ${{ vars.EMAIL_TEMPLATE_ID }}
         # For Vue CLI, "npm run build" also works
         run: npm run build
 

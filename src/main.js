@@ -27,7 +27,6 @@ Vue.use(VueScrollTo, {
   x: false,
   y: true
 });
-
 const router = new VueRouter({ routes, mode:'history' })
 
 new Vue({
